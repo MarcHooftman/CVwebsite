@@ -1,0 +1,42 @@
+main,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    height: 100vh;
+    flex: 1;
+    background: #000;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+
+    a {
+        color: white;
+    }
+
+    ul {
+        padding: 0;
+
+        li + li {
+            margin-top: 1.5rem;
+          }
+    }
+
+
+}
+
+
+
+.rest {
+    flex: 3;
+}
